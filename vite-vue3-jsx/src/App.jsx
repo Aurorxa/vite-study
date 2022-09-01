@@ -1,13 +1,15 @@
 import { defineComponent } from 'vue'
 import '@/styles/index.css'
 
-const url = new URL('./assets/vue.svg', import.meta.url)
+import logo from '@/assets/vue.svg'
+
+console.log(logo)
 
 const Test = defineComponent({
     render() {
         return (<div class="title">
-            <img src={ url.href} alt="" />
             你好啊，Vite jsx
+            <img src={ logo} alt="" />
         </div>)
     }
 })
