@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue'
-import '@/styles/hello.css'
+import '@/styles/index.css'
 
 const url = new URL('./assets/vue.svg', import.meta.url)
 
